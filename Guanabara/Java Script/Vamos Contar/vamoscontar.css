@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(98, 98, 167);
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background-color: #fff;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+}
