@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscricao.css">
+    <title>Formulário de Inscrição</title>
+</head>
+
+<header>
+    <div class="inicio">
+    <h1>Formulário de Inscrições</h1>
+    <h2>Digite abaixo suas informações:</h2>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.uMZu9UrW-WvTkoqlu24hqQAAAA&pid=Api&P=0&w=210&h=210" alt="">  
+    </div>
+</header>
+
+<body>
+    <div class="formulario">
+      <form>
+          <fieldset>
+              <legend id="legenda">
+                  Seja um Resiliente
+              </legend>
+              <div class="input">
+                   <div id="txtnome">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome" required>
+                   </div>
+                   <br>
+                    
+                   <div id="nascimento">
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" name="data" id="data" required>
+                   </div>
+                   <br>
+                    
+                   <div id="txtemail">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" name="email" id="email" required>
+                   </div>
+                   <br>
+
+                   <div id="tel">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" required>
+                   </div>
+                   <br>
+                    
+                   <div id="sexo">
+                    <p>Sexo:</p>
+                    <input type="radio" name="genero" value="masculino" id="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" value="feminino" id="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" value="outros" id="outros">
+                    <label for="outros">Outros</label><br><br>
+                   </div>
+                   <br>
+
+                   <div id = grauescola>
+                    <label for="escolaridade">Grau de escolaridade:</label>
+                    <select name="escolaridade" id="escolaridade">
+                     <option value="none" disabled selected>Selecione</option>
+                     <option value="fundamental">Fundamental</option>
+                     <option value="medio">Médio</option>
+                     <option value="superior">Superior</option>
+                     <option value="pos">Pós-Graduação</option>
+                    </select>
+                   </div>
+                   <br>
+                   
+                  <div id="conhecimento">
+                   <p>Conhecimentos de Informática:</p>
+                   <label for="basico">Básico</label>
+                   <input type="radio" name="conhecimento" value="basico" id="basico">
+                   <label for="intermediario">Intermediário</label>
+                   <input type="radio" name="conhecimento" value="intermediario" id="intermediario">
+                   <label for="avançado">Avançado</label>
+                   <input type="radio" name="conhecimento" value="avançado" id="avançado">
+                  </div> 
+                  <br>
+                  <div id="botton">
+                    <input type="submit" value="Enviar" id="botao">
+                  <div>
+                </div>
+                
+            </fieldset>
+      </form>
+ </div>
+</body>
+</html>
